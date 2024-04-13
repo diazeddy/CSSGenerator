@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import { BoxShadowGenerator } from "./components/BoxShadowGenerator";
 
 const App: React.FC = () => {
-
   return (
-    <div className="App">
-      Update Me!
-    </div>
+    <>
+      <BoxShadowGenerator />
+    </>
   );
-}
+};
 
 export default App;
