@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { BoxShadowGenerator } from "./components/BoxShadowGenerator";
 import { BorderRadiusGenerator } from "./components/BorderRadiusGenerator";
+import { TextShadowGenerator } from "./components/TextShadowGenerator";
 import './App.css';
 
 const App: React.FC = () => {
@@ -22,28 +23,28 @@ const App: React.FC = () => {
       <div className="flex flex-col">
         <div className="-mb-px flex">
           <button 
-            className={`border-b-2 pb-4 ${activeTab === 'tab1' ? 'border-orange-500' : 'border-transparent'} flex-1 text-left`}
+            className={`text-blue-500 hover:bg-blue-300 border-b-2 pb-4 ${activeTab === 'tab1' ? 'border-orange-500' : 'border-transparent'} flex-1 text-left`}
             onClick={() => setActiveTab('tab1')}
           >
             Box Shadow
           </button>
 
           <button
-            className={`border-b-2 pb-4 ${activeTab === 'tab2' ? 'border-orange-500' : 'border-transparent'} flex-1 text-left`}  
+            className={`text-blue-500 hover:bg-blue-300 border-b-2 pb-4 ${activeTab === 'tab2' ? 'border-orange-500' : 'border-transparent'} flex-1 text-left`}  
             onClick={() => setActiveTab('tab2')}
           >
             Border Radius
           </button>
 
           <button
-            className={`border-b-2 pb-4 ${activeTab === 'tab3' ? 'border-orange-500' : 'border-transparent'} flex-1 text-left`}  
+            className={`text-blue-500 hover:bg-blue-300 border-b-2 pb-4 ${activeTab === 'tab3' ? 'border-orange-500' : 'border-transparent'} flex-1 text-left`}  
             onClick={() => setActiveTab('tab3')}
           >
             Text Shadow
           </button>
 
           <button
-            className={`border-b-2 pb-4 ${activeTab === 'tab4' ? 'border-orange-500' : 'border-transparent'} flex-1 text-left`}  
+            className={`text-blue-500 hover:bg-blue-300 border-b-2 pb-4 ${activeTab === 'tab4' ? 'border-orange-500' : 'border-transparent'} flex-1 text-left`}  
             onClick={() => setActiveTab('tab4')}
           >
             CSS Cursor
@@ -60,7 +61,7 @@ const App: React.FC = () => {
           </div>
 
           <div className={`${activeTab === 'tab3' ? '' : 'hidden'}`}>
-            
+            <TextShadowGenerator />
           </div>
 
           <div className={`${activeTab === 'tab4' ? '' : 'hidden'}`}>
