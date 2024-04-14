@@ -42,3 +42,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#title_brand {
+  display: inline-block;
+  margin-top: 8px;
+  color: rgb(255, 101, 80);
+  font-size: 36px;
+}
