@@ -44,3 +44,25 @@ Build several CSS Generator front-end pages and implement capturing functionalit
 
 ### API Features
 - `/api/capture`: Receives image data (Canvas DataURI) from frontend
+
+### Installation
+
+1. Clone the repository
+
+2. Set up the node modules on both front end and back end side
+- Please use Node 16.14.0
+
+
+```shell
+npm install
+```
+
+3. Run the program
+
+```shell
+npm run dev
+```
+
+```shell
+node server.js
+```

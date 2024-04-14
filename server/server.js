@@ -17,7 +17,6 @@ const checkDirectoryExists = (filePath) => {
 };
 
 app.post("/api/capture", (req, res) => {
-  console.log("Image Received");
   const imageData = req.body.imageData;
   const imagePath = path.join(
     __dirname,

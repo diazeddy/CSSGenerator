@@ -23,8 +23,6 @@ const App: React.FC = () => {
       if (containerRef.current) {
         html2canvas(containerRef.current).then((canvas) => {
           const imageData = canvas.toDataURL("image/png");
-          console.log({ imageData });
-          console.log("canvas calling");
           axiosApi
             .post("/capture", { imageData })
             .then(() => {
