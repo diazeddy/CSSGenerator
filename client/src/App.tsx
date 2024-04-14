@@ -3,6 +3,7 @@ import { useState } from "react";
 import { BoxShadowGenerator } from "./components/BoxShadowGenerator";
 import { BorderRadiusGenerator } from "./components/BorderRadiusGenerator";
 import { TextShadowGenerator } from "./components/TextShadowGenerator";
+import { CssCursorGenerator } from "./components/CSSCursorGenerator";
 import './App.css';
 
 const App: React.FC = () => {
@@ -65,7 +66,7 @@ const App: React.FC = () => {
           </div>
 
           <div className={`${activeTab === 'tab4' ? '' : 'hidden'}`}>
-            
+            <CssCursorGenerator />
           </div>
         </div>
       </div>
