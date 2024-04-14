@@ -43,12 +43,9 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 36px;
-}
-
 #title_brand {
   display: inline-block;
   margin-top: 8px;
   color: rgb(255, 101, 80);
+  font-size: 36px;
 }
