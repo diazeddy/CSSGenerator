@@ -1,9 +1,10 @@
 # Project: Web Page Screenshot Capture
 
 ## Description
-A web application that captures webpage content as images every 5 seconds and stores them locally on the server.
+Build several CSS Generator front-end pages and implement capturing functionality.
 
 ## Features
+- Implment 4 app features of CSS generator.
 - Captures webpage content as images
 - Saves images to a local directory
 - Utilizes React for frontend and Node.js for backend
@@ -24,6 +25,7 @@ A web application that captures webpage content as images every 5 seconds and st
 - TypeScript
 - HTML2Canvas
 - Axios
+- Vite
 
 ### Features
 - Border Radius, Box Shadow, Text Shadow, CSS Cursor Generators
@@ -42,9 +44,3 @@ A web application that captures webpage content as images every 5 seconds and st
 
 ### API Features
 - `/api/capture`: Receives image data (Canvas DataURI) from frontend
-
-## Usage
-1. Clone the repository
-2. Install dependencies
-3. Run the program
-4. Open `http://127.0.0.1:5173/` in your browser
