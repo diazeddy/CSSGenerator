@@ -45,7 +45,7 @@ Build several CSS Generator front-end pages and implement capturing functionalit
 ### API Features
 - `/api/capture`: Receives image data (Canvas DataURI) from frontend
 
-### Installation
+## Installation
 
 1. Clone the repository
 
