@@ -52,17 +52,19 @@ Build several CSS Generator front-end pages and implement capturing functionalit
 2. Set up the node modules on both front end and back end side
 - Please use Node 16.14.0
 
-
 ```shell
 npm install
 ```
 
 3. Run the program
 
+- Front-end
+
 ```shell
 npm run dev
 ```
 
+- Back-end
 ```shell
 node server.js
 ```
